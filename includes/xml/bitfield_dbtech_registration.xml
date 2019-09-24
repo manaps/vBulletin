@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<bitfields product="dbtech_registration">
+	<bitfielddefs>
+		<group name="ugp">
+			<group name="dbtech_registrationpermissions">
+				<bitfield name="ismanager"									group="dbtech_registration_general_permissions"	phrase="dbtech_registration_is_manager" 	install="5,6,7"			>1</bitfield>
+				<bitfield name="canview"									group="dbtech_registration_general_permissions"	phrase="dbtech_registration_canview" 		install="2,3,4,5,6,7"	>2</bitfield>
+				<bitfield name="caninvite"									group="dbtech_registration_general_permissions"	phrase="dbtech_registration_can_invite" 	install="2,3,4,5,6,7"	>4</bitfield>
+				<bitfield name="dbtech_registration_invites" intperm="true" group="dbtech_registration_general_permissions"	phrase="dbtech_registration_invites"								>0</bitfield>
+				<bitfield name="canviewemail"								group="dbtech_registration_general_permissions"	phrase="dbtech_registration_canviewemail"	install="5,6,7"			>8</bitfield>
+			</group>
+		</group>
+		
+		<group name="nocache">
+			<group name="dbtech_registration_integration">
+				<bitfield name="dbtech_registration_quicklinks"		>1</bitfield>				
+				<bitfield name="dbtech_registration_community"		>2</bitfield>				
+			</group>
+			
+			<group name="dbtech_registration_postbit">
+				<!--<bitfield name="dbtech_registration_below_rank"		>1</bitfield>-->
+				<bitfield name="dbtech_registration_below_postcount"	>2</bitfield>				
+				<!--<bitfield name="dbtech_registration_below_reputation"	>4</bitfield>-->			
+				<!--<bitfield name="dbtech_registration_before_signature"	>8</bitfield>				
+				<bitfield name="dbtech_registration_after_signature"	>16</bitfield>-->
+			</group>
+		</group>
+		
+		<group name="misc">
+			<group name="dbtech_registrationadminperms">
+				<bitfield name="canadminregistration"					>1</bitfield>
+			</group>
+		</group>
+		
+	</bitfielddefs>
+</bitfields>

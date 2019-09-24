@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<navgroups product="_vboptimise_dbtech">
+	<navgroup phrase="vboptimise" permissions="canadminvboptimise" displayorder="10">
+
+		<navoption displayorder="45">
+			<phrase>vboptimise_cdnintegration</phrase>
+			<link>vboptimise.php?do=cdn</link>
+		</navoption>
+
+	</navgroup>
+</navgroups>

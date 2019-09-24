@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+
+	# If you are having problems or are using VirtualDocumentRoot, uncomment this line and set it to your vBulletin directory.
+	# RewriteBase /
+
+	# If you are having problem with "None Could Be Negotiated" errors in Apache, uncomment this to turn off MultiViews
+	# Options -MultiViews
+
+	RewriteCond %{QUERY_STRING} !dbseourl=
+	RewriteCond %{REQUEST_URI} !(admincp/|dbseocp/|modcp/|cron|mobiquo|forumrunner|api\.php|reviewpost/|classifieds/|photopost/)
+	RewriteRule ^(.*\.php)$ dbseo.php?dbseourl=$1 [L,QSA]
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME} !/(admincp|dbseocp|modcp|clientscript|cpstyles|images|reviewpost|classifieds|photopost)/
+	RewriteRule ^(.+)$ dbseo.php [L,QSA]
+</IfModule>

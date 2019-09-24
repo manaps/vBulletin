@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<navgroups product="ps_page_builder">
+    <navgroup phrase="ps_page_builder" hr="true" displayorder="10">
+        <navoption displayorder="1">
+            <phrase>ps_page_builder_manage_pages</phrase>
+            <link>pagebuilder.php?do=manage</link>
+        </navoption>
+    </navgroup>
+</navgroups>

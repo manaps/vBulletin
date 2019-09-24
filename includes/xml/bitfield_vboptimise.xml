@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<bitfields product="_vboptimise_dbtech">
+	<bitfielddefs>
+		<group name="misc">
+			<group name="dbtech_vboptimiseadminperms">
+				<bitfield name="canadminvboptimise">1</bitfield>
+			</group>
+		</group>
+	</bitfielddefs>
+</bitfields>

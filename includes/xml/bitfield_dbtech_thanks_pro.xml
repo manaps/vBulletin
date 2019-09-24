@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<bitfields product="dbtech_thanks">
+	<bitfielddefs>
+		<group name="nocache">
+			<group name="dbtech_thanks_features">
+				<bitfield name="dbtech_thanks_dislike"				>4</bitfield>				
+			</group>
+			
+			<group name="dbtech_thanks_postbit">
+				<bitfield name="dbtech_thanks_dislikes_given"		>16</bitfield>
+				<bitfield name="dbtech_thanks_dislikes_received"	>32</bitfield>				
+			</group>
+			
+			<group name="dbtech_thanks_notification_settings">
+				<bitfield name="dbtech_thanks_disablenotifs"		>1</bitfield>
+				<bitfield name="dbtech_thanks_disableemails"		>2</bitfield>
+			</group>
+			
+			<group name="dbtech_thanks_postfont_settings">
+				<bitfield name="dbtech_thanks_headers"		>1</bitfield>
+				<bitfield name="dbtech_thanks_footers"		>2</bitfield>
+				<bitfield name="dbtech_thanks_postinfo"		>4</bitfield>
+				<bitfield name="dbtech_thanks_postcontent"	>8</bitfield>
+			</group>
+			
+		</group>
+		
+	</bitfielddefs>
+</bitfields>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<navgroups product="_vboptimise_dbtech">
+	<navgroup phrase="vboptimise" permissions="canadminvboptimise" hr="true" displayorder="10">
+
+		<navoption displayorder="10">
+			<phrase>vboptimise_resourcestats</phrase>
+			<link>vboptimise.php?do=resources</link>
+		</navoption>
+
+		<navoption displayorder="20">
+			<phrase>vboptimise_mainsettings</phrase>
+			<link>options.php?do=options&amp;dogroup=_vboptimise_dbtech</link>
+		</navoption>
+
+		<navoption displayorder="30">
+			<phrase>vboptimise_cachesettings</phrase>
+			<link>options.php?do=options&amp;dogroup=_vboptimise_cachers_dbtech</link>
+		</navoption>		
+
+		<navoption displayorder="40">
+			<phrase>vboptimise_miscsettings</phrase>
+			<link>options.php?do=options&amp;dogroup=_vboptimise_other_dbtech</link>
+		</navoption>
+
+		<navoption displayorder="50">
+			<phrase>vboptimise_optimalsettings</phrase>
+			<link>vboptimise.php?do=optimal</link>
+		</navoption>
+
+		<navoption displayorder="60">
+			<phrase>vboptimise_systemtest</phrase>
+			<link>vboptimise.php?do=test</link>
+		</navoption>
+
+		<navoption displayorder="70">
+			<phrase>vboptimise_flushcache</phrase>
+			<link>vboptimise.php?do=flush</link>
+		</navoption>
+
+	</navgroup>
+</navgroups>

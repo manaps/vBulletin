@@ -1,0 +1,13 @@
+{
+    "require": {
+        "vlucas/phpdotenv": "^3.4",
+        "symfony/var-dumper": "^4.0",
+        "filp/whoops": "^2.4"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "vBulletin\\": "./src"
+        }
+    }
+}

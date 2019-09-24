@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<navgroups product="dbtech_registration">
+	<navgroup phrase="dbtech_registration_cpnav" permissions="canadminregistration" hr="true" displayorder="16">
+		
+		<navoption displayorder="40">
+			<phrase>dbtech_registration_manage_actions</phrase>
+			<link>registration.php?do=action</link>
+		</navoption>
+
+		<navoption displayorder="50">
+			<phrase>dbtech_registration_manage_redirects</phrase>
+			<link>registration.php?do=redirect</link>
+		</navoption>	
+		
+	</navgroup>
+</navgroups>
